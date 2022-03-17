@@ -22,11 +22,11 @@ type ProfileCardProps = {
 
 export default function ProfileCardGenerator() {
   const [cardImage, setCardImage] = useState(
-    '/api/profile?login=ozaazaa&cursus=42&email=hide'
+    '/api/profile?login=aamoussa&cursus=42&email=hide'
   )
   const initialValues: ProfileCardProps = {
-    login: 'ozaazaa',
-    cursus: '42',
+    login: 'aamoussa',
+    cursus: '42cursus',
     showEmail: false,
     darkTheme: false,
     hideLeetLogo: false,
